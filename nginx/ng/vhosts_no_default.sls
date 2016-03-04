@@ -13,7 +13,7 @@ vhost_default:
 include:
   - nginx.ng.service
   
-nginx_service_reload:
+nginx_service_reload_no_default:
   service.{{ service_function }}:
     - name: {{ nginx.lookup.service }}
     - reload: True
