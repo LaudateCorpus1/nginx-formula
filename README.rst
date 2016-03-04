@@ -94,3 +94,8 @@ and does not bind them to service calls.
 -------------------
 
 Manages nginx virtual hosts files and binds them to service calls.
+
+``nginx.ng.vhosts_no_default``
+-------------------
+
+Removes the default vhosts file.
